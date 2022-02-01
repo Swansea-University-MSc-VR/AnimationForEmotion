@@ -1686,10 +1686,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8622689251312427847, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8622689251312427847, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -6e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8622689251312427847, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -6.3108872e-30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8622689251312427847, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -8.21014e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8622689251312427847, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
       propertyPath: m_Name
       value: rp_eric_rigged_001_u3d
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 30b76ee38e35f7a4ba398f4df2499f07, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea01b9c60a6e30b4a89c97f11fa3a265, type: 3}
 --- !u!1 &586925177
@@ -5075,7 +5099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1670836050
 MonoBehaviour:
   m_ObjectHideFlags: 0
