@@ -32,6 +32,8 @@ public class Leg : MonoBehaviour
     public bool Movable { get; set; } = false;
     public float TipDistance { get; private set; }
 
+    public float gizmoSize = 0.1f;
+
     private void Awake()
     {
         legController = GetComponentInParent<LegController>();
@@ -116,15 +118,15 @@ public class Leg : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Gizmos.DrawSphere(RaycastTipPos, 0.1f);
+        Gizmos.DrawSphere(RaycastTipPos, gizmoSize);
 
         Gizmos.color = Color.blue;
-        Gizmos.DrawSphere(TipPos, 0.1f);
+        Gizmos.DrawSphere(TipPos, gizmoSize);
 
         Gizmos.color = Color.red;
         Gizmos.DrawLine(TipPos, RaycastTipPos);
 
         Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(ikTarget.transform.position, 0.1f);
+        Gizmos.DrawSphere(ikTarget.transform.position, gizmoSize);
     }
 }
